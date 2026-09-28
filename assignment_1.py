@@ -44,4 +44,4 @@ print(5 * 2 % 5)
 print('Final is : ' + str(stdFinal))
 
 # 15.
-print(3 * 3)
+print("3" * 3)
