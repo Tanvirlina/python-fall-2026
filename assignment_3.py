@@ -141,23 +141,42 @@ print("15. Printing upto two decimal point using function: ", f"{((stdMidterm+st
 # 16. Print this sentence using an escape character for the quotes:
 #     The teacher said "Great job!" to Mohammed.
 
+print("16. Print using escape character: ","The teacher said \"Great job!\" to Mohammed.")
+
 
 # 17. Use the in keyword to check if 'school' is in stdEmail. Print the result.
+
+print("17. using in keyword to check school word: ", 'school' in stdEmail)
 
 
 # ---------------- PART D: BOOLEANS ----------------
 
 # 18. PREDICT True or False for each, then check with bool():
 #     bool(0)   bool(15)   bool("")   bool("False")   bool([])   bool(None)
-#     My guesses:
+#     My guesses: bool(0) = False;   bool(15)= True;  bool("") = False;   bool("False") = False: I am wrong here. It is True;  
+# bool([])=False   bool(None) = False
+
+print("18.1 Boolean value of bool(0):",bool(0))
+
+print("18.2 Boolean value of bool(15):",bool(15))
+
+print("18.3 Boolean value of bool(False):",bool("False"))
+
+print("18.4 Boolean value of bool([]):",bool([]))
+
+print("18.5 Boolean value of bool(None):",bool(None))
 
 
 # 19. Print the result of bool(stdComment). Then explain in a comment
 #     why it gives that answer.
 
+print("19. As the value of stdComment is Null or Empty, it returns: ",bool(stdComment))
+
 
 # 20. Use isinstance() to check if stdFinal is a float. Print the result.
 
-
+print("20. Checking stdFinal data type using isinstance: ",isinstance(stdFinal, float))
 # BONUS: Print stdName backwards ('demmahoM') using slicing.
 #        Hint: [::-1]
+
+print("Bonus: Printing student name backwards: ",stdName[::-1])
